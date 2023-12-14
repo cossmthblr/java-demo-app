@@ -41,4 +41,3 @@ post {
             mail bcc: '', body: 'Pipeline build not success', cc: '', from: 't2mazumdar@gmail.com', replyTo: '', subject: 'The Pipeline failed', to: 'cossmthblr@gmail.com'
          } 
     }
-}

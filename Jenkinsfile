@@ -32,7 +32,7 @@ pipeline {
         }
     }
 }
-}
+
 post {
         success {
             mail bcc: '', body: 'Pipeline build successfully', cc: '', from: 't2mazumdar@gmail.com', replyTo: '', subject: 'The Pipeline success', to: 'cossmthblr@gmail.com'

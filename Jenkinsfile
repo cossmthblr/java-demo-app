@@ -27,7 +27,7 @@ pipeline {
         }
         stage('DockerContainer'){
             steps{
-                 sh "docker run -d -p 30013:8080 webapp"
+                 sh "docker run -d --name my-demo-con -p 30013:8080 webapp"
             }
         }
     }
